@@ -1,6 +1,6 @@
 import React from 'react';
 import './SideBar.css';
-import articles from '../data/articles.json'
+import articles from '../../data/articles.json'
 
 const keywords = articles.map(item => <div ><a className='tag-default' href="/">{item.keyword}</a> </div>)
 

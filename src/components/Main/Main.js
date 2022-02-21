@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css'
-import articles from '../data/articles.json'
+import articles from '../../data/articles.json'
 
 const listItem = articles.map((item) =>
   <section>
