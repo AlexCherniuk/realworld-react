@@ -1,10 +1,10 @@
 import React from 'react';
-import Main from '../../Main/Main';
-import SideBar from '../../SideBar/SideBar';
+import Main from '../../components/Main/Main';
+import SideBar from '../../components/SideBar/SideBar';
 
 function Home() {
     return(
-        <div>
+        <div >
             <Main />
             <SideBar />
         </div>
