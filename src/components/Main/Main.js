@@ -2,10 +2,10 @@ import React from 'react';
 import './Main.css'
 import articles from '../../data/articles.json'
 
-const listItem = articles.map((item) =>
+const listItem = articles.map((item, index) =>
   <section>
-    <h2>{item.title}</h2>
-    <div>{item.body}</div>
+    <h2 key={index.toString()}>{item.title}</h2>
+    <div key={index.toString()}>{item.body}</div>
   </section>)
 
 
